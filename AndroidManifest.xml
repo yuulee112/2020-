@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ict">
+
+    <application
+        android:name=".Global_Class"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_main_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        tools:ignore="AllowBackup">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NextActivity" />
+        <activity android:name=".NextActivity0" />
+        <activity android:name=".NextActivity3" />
+        <activity android:name=".NextActivity4" />
+        <activity android:name=".NextActivitySsb" />
+        <activity android:name=".NextActivityLibrary" />
+        <activity android:name=".NextActivitySjb" />
+        <activity android:name=".GameOver" />
+        <activity android:name=".EndingFgrade" />
+        <activity android:name=".NextActivityHill" />
+        <activity android:name=".EndingBreak" />
+        <activity android:name=".EndingForeign" />
+        <activity android:name=".EndingFull" />
+        <activity android:name=".EndingHealth" />
+        <activity android:name=".EndingOwl" />
+        <activity android:name=".EndingSleep" />
+        <activity android:name=".EndingTopgrade" />
+        <activity android:name=".NextActivityLawn" />
+        <activity android:name=".RotcGame" />
+        <activity android:name=".NextActivityShop" />
+        <activity android:name=".NextActivityNanhyang" />
+        <activity android:name=".NextActivityGym" />
+        <activity android:name=".EndingNormal" />
+        <activity android:name=".Egg" />
+        <activity android:name=".Map_SungShin"/>
+    </application>
+
+</manifest>
