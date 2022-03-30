@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RotcGame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B483F8"
+    android:padding="30dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="30dp">
+
+        <Button
+            android:id="@+id/button120"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_radius"
+            android:fontFamily="@font/bmjua"
+            android:text="@string/open"
+            android:textColor="#000000"
+            app:autoSizeMaxTextSize="40dp"
+            app:autoSizeMinTextSize="12dp"
+            app:autoSizeStepGranularity="2dp"
+            app:autoSizeTextType="uniform" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="30dp" >
+
+        <Button
+            android:id="@+id/button109"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/memo"
+            android:fontFamily="@font/bmjua"
+            android:text=""
+            android:textColor="#000000"
+            app:autoSizeMaxTextSize="40dp"
+            app:autoSizeMinTextSize="12dp"
+            app:autoSizeStepGranularity="2dp"
+            app:autoSizeTextType="uniform"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="30dp">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/talk"
+            android:fontFamily="@font/bmjua"
+            android:text="@string/draw"
+            android:textColor="#000000"
+            app:autoSizeMaxTextSize="40dp"
+            app:autoSizeMinTextSize="12dp"
+            app:autoSizeStepGranularity="2dp"
+            app:autoSizeTextType="uniform"
+            android:gravity="center"/>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
